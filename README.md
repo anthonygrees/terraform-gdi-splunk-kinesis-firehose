@@ -1,0 +1,2 @@
+# terraform-gdi-splunk-kinesis-firehose
+This terraform configures a Kinesis Firehose, sets up a subscription for a desired CloudWatch Log Group to the Firehose, and sends the log data to Splunk via a HEC over SSL.  A Lambda function is required to transform the CloudWatch Log data from "CloudWatch compressed format" to a format compatible with Splunk.  This terraform also takes care of configuring this Lambda function.
