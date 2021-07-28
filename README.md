@@ -8,7 +8,7 @@ You will need the following:
 - Splunk with SSL enabled (No self signed certs as Kinesis won't accept it)
 - HEC Token from your Splunk administrator
 - Splunk AWS Addon app installed
-- HEC configured with `Enable indexer acknowledgement` ticked
+- HEC configured with `Enable indexer acknowledgement` ticked     
 Note: This code does not use KMS yet.  I plan to add it for security.
   
 ### Example `tfvars` File
